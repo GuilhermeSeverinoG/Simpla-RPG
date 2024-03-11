@@ -8,14 +8,42 @@
     <title>Simpla RPG</title>
 </head>
 <body>
-    <div class="latera-window">
-
+    <div class="lateral-window display-ib blue">
+        <div class="white-border player-window">
+            <div class="player-image white-border"></div>
+            <div class="player-status">
+                <ul>
+                    <li>❤️ <a id="player-hp">0</a></li>
+                    <li>🔮 <a id="player-mp">0</a></li>
+                    <li>🗡️ <a id="player-attack">0</a></li>           
+                    <li>🛡️ <a id="player-armor">0</a></li>
+                </ul> 
+            </div>
+            <a class="action-text" id="act-sair">Sair</a>
+        </div>
     </div>
-    <div id="central-window">
+    <div id="central-window" class="display-ib blue">
+        <div id="game-window" class="white-border">
+            <img id="screen-window" class="white-border" src="img/battle-bg.png">
+            <div id="text-window" class="white-border">
 
+            </div>
+            <div id="action-window">
+                <div class="display-b action-text">
+                    <a>Atacar</a>
+                    <a>Defender</a>
+                </div>
+                <div class="display-b action-text">
+                    <a>Interagir</a>
+                    <a>Fugir</a>
+                </div>       
+            </div>
+        </div>
     </div>
-    <div class="latera-window">
-
+    <div class="lateral-window display-ib blue">
+        <div class="white-border player-window">
+            <hr>
+        </div>
     </div>
 </body>
 </html>

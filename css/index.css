@@ -36,3 +36,8 @@ select{
     color: white;
     text-align: center;
 }
+.player-image{
+    width: 100px;
+    height: 100px;
+    margin: 15px 0px 5px 190px;
+}

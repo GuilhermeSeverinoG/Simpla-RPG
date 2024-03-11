@@ -2,9 +2,17 @@ body{
     background-image: url("../img/menu-bg.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    margin: 20px;
 }
 ul{
     list-style: none;
+}
+.display-ib{
+    display: inline-block;
+    vertical-align: top;
+}
+.display-b{
+    display: block;
 }
 /*Cores*/
 .blue{
@@ -17,11 +25,7 @@ ul{
     border: 2px solid whitesmoke;
 }
 /*Funcionalidades*/
-.player-image{
-    width: 100px;
-    height: 100px;
-    margin: 15px 0px 5px 190px;
-}
+
 .btn-normal{
     width: 150px;
     height: 30px;
