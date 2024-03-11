@@ -8,12 +8,23 @@
     <title>Simpla RPG - Menu</title>
 </head>
 <body>
-    <div id="index-menu">
-        <div id="index-select-result">
-
+    <div id="index-menu" class="blue">
+        <div id="index-select-result" class="white-border">
+            <div class="player-image white-border"></div>
+            <div class="player-status white-border">
+                <ul>
+                    <li>❤️ <a id="player-hp">0</a></li>
+                    <li>🔮 <a id="player-mp">0</a></li>
+                    <li>🗡️ <a id="player-attack">0</a></li>           
+                    <li>🛡️ <a id="player-armor">0</a></li>
+                </ul> 
+            </div>
         </div>
-        <div id="index-action">
-
+        <div id="index-action" class="white-border">
+            <select class="blue">
+                <option selected>Mago</option>
+            </select>
+            <button class="btn-normal green-hover green">Iniciar</button>
         </div>
     </div>
 </body>
