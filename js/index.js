@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
     selectClass.addEventListener("change", function(){
         playerImage.innerHTML = '<img src="img/'+selectClass.value+'.png">'
         if(selectClass.value == "wizard"){
-            playerStart = ["Mago",60,100,20,10]
+            playerStart = ["wizard",60,100,20,10]
         }else{
 
         }
