@@ -17,11 +17,7 @@
     width: 892px;
     margin: 5px 0px 0px 5px;
 }
-#screen-window{
-    width: 300px;
-    height: 300px;
-    margin: 10px 0px 10px 290px;
-}
+
 #text-window{
     margin: auto;
     width: 500px;
@@ -75,4 +71,53 @@ td{
     width: 50;
     height: 50px;
     border-style: groove;
+}
+#screen-window{
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px 10px 290px;
+    position: relative;
+    z-index: 1;
+}
+#event{
+    width: 150px;
+    height: 180px;
+    border: 1px solid red;
+    position: absolute;
+    top: 120px;
+    left: 670px;
+    z-index: 2;
+}
+#event-img{
+    border: 1px solid purple;
+    height: 130px;
+    width: 130px;
+    margin: 5px 0px 0px 9px;
+}
+#event-hp{
+    border: 1px solid green;
+    width: 90px;
+    height: 25px;
+    margin: 0px 0px 5px 9px;
+    color: white;
+    padding: 0px 0px 0px 30px;
+    font-size: 20px;
+}
+#text-event{
+    border: 1px solid pink;
+    position: absolute;
+    width: 480px;
+    height: 25px;
+    font-size: 18px;
+    color: white;
+    margin: 25px 0px 0px 10px;
+}
+hr{
+    margin-top: 320px;
+    width: 220px;
+}
+#player-gold{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
 }
