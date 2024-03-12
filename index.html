@@ -10,7 +10,7 @@
 <body>
     <div id="index-menu" class="blue">
         <div id="index-select-result" class="white-border">
-            <div class="player-image white-border"></div>
+            <div class="player-image white-border" id="player-image"></div>
             <div class="player-status white-border">
                 <ul>
                     <li>❤️ <a id="player-hp">0</a></li>
@@ -21,8 +21,9 @@
             </div>
         </div>
         <div id="index-action" class="white-border">
-            <select class="blue">
-                <option selected>Mago</option>
+            <select class="blue" id="select-class">
+                <option value="wizard" selected>Mago</option>
+                <option value="test" selected>test</option>
             </select>
             <button class="btn-normal green-hover green" id="act-iniciar">Iniciar</button>
         </div>
