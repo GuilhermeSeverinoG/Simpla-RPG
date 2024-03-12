@@ -24,6 +24,9 @@ ul{
 .white-border{
     border: 2px solid whitesmoke;
 }
+.white-border2{
+    border: 4px solid #E6BF83;
+}
 /*Funcionalidades*/
 
 .btn-normal{

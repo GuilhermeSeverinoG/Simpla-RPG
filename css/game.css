@@ -27,10 +27,11 @@
     width: 500px;
     height: 70px;
     margin-bottom: 10px;
+    border-style: groove;
 }
 #action-window{
     width: 870px;
-    height: 255px;
+    height: 250px;
     border: 2px solid whitesmoke;
     margin: 0px 10px 10px 10px;
 }
@@ -62,5 +63,16 @@
 }
 #act-sair{
     position: absolute;
-    margin: 280px 0px 0px 80px;
-}    
+    margin: 290px 0px 0px 80px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+td{
+    width: 50;
+    height: 50px;
+    border-style: groove;
+}
