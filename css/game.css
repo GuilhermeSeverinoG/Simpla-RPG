@@ -82,29 +82,28 @@ td{
 #event{
     width: 150px;
     height: 180px;
-    border: 1px solid red;
     position: absolute;
     top: 120px;
     left: 670px;
     z-index: 2;
 }
 #event-img{
-    border: 1px solid purple;
     height: 130px;
     width: 130px;
-    margin: 5px 0px 0px 9px;
+    margin: 5px 0px 0px 10px;
 }
 #event-hp{
-    border: 1px solid green;
-    width: 90px;
+    width: 40px;
     height: 25px;
-    margin: 0px 0px 5px 9px;
+    margin: 0px 0px 5px -13px;
     color: white;
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 10px;
     font-size: 20px;
 }
+#event-hp-icon{
+    margin: 0px 0px 0px 45px;
+}
 #text-event{
-    border: 1px solid pink;
     position: absolute;
     width: 480px;
     height: 25px;
@@ -120,4 +119,7 @@ hr{
     color: white;
     font-size: 20px;
     margin-left: 10px;
+}
+#gold-icon{
+    margin: 0px -10px 0px 10px;
 }
